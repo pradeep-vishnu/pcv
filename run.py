@@ -2,6 +2,8 @@ import os
 import os.path as osp
 import argparse
 import random
+import sys
+sys.path.append(os.getcwd())
 
 import torch
 import torch.multiprocessing as mp
