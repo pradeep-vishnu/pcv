@@ -9,7 +9,7 @@ from PIL import Image
 import torch
 import apex
 
-from . import cfg
+from .config import cfg
 from .utils import CompoundTimer
 from .pcv import get_pcv
 #from .models import get_model_module, convert_inplace_sync_batchnorm, convert_naive_sync_batchnorm
